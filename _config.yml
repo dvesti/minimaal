@@ -94,7 +94,7 @@ deploy:
   type: git
   repo: git@github.com:dvesti/minimaal.git
   branch: gh-pages
-  message: "{{ now ('YYYY-MM-DD HH:mm:ss:') }}"
+  message: " {{ now ('YYYY-MM-DD HH:mm:ss:') }} "
 #  aws_key: AKIAJ3LFUVWO56RMKZSA  // Optional, if the environment variable `AWS_KEY` is set
 #  aws_secret: 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  // Optional, if the environment variable `AWS_SECRET` is set
  
