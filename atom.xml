@@ -61,9 +61,9 @@
     
       <category term="Plugin" scheme="https://dvesti.github.io/minimaal/tags/Plugin/"/>
     
-      <category term="Hack" scheme="https://dvesti.github.io/minimaal/tags/Hack/"/>
-    
       <category term="Hexo" scheme="https://dvesti.github.io/minimaal/tags/Hexo/"/>
+    
+      <category term="Hack" scheme="https://dvesti.github.io/minimaal/tags/Hack/"/>
     
   </entry>
   
