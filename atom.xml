@@ -6,7 +6,7 @@
   <link href="/minimaal/atom.xml" rel="self"/>
   
   <link href="https://dvesti.github.io/minimaal/"/>
-  <updated>2020-06-13T22:20:30.282Z</updated>
+  <updated>2020-06-14T10:41:09.973Z</updated>
   <id>https://dvesti.github.io/minimaal/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Обновились до NexT 8.0.0</title>
+    <link href="https://dvesti.github.io/minimaal/2020/06/14/NexT-8/"/>
+    <id>https://dvesti.github.io/minimaal/2020/06/14/NexT-8/</id>
+    <published>2020-06-14T08:50:55.000Z</published>
+    <updated>2020-06-14T10:41:09.973Z</updated>
+    
+    <content type="html"><![CDATA[<p>И снова обновили тему <strong>NexT</strong> до версии <strong>NexT 8.0.0-rc.3</strong><br>Пользовался <strong><a href="https://theme-next.js.org/docs/" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em><br><a id="more"></a><br>Сейчас установлена тема: <strong>next-reloaded</strong> (она же – <strong>NexT</strong>)<br>Схема: <strong>Gemini</strong> (она мне показалась более брутальной и ядрёной)<br>Добавили в тему много интересных и красивых фишек, как по дизайну, так и в части плагинов.<br>Удивительный Поиск. Наконец-то, ищет и по русским словам (в <em><a href="https://dvesti.github.io/Pelican">Pelican</a></em> и <em><a href="https://dvesti.github.io/">Hugo</a></em>, например, не получилось найти и установить работающую модель)<br>Весьма продвинутое руководство (ссылку см. выше), по которому можна настроить сайт, как душе угодно. В том числе и сделать сайтом документации.<br>Короче, я – доволен, а это бывает редко…</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;И снова обновили тему &lt;strong&gt;NexT&lt;/strong&gt; до версии &lt;strong&gt;NexT 8.0.0-rc.3&lt;/strong&gt;&lt;br&gt;Пользовался &lt;strong&gt;&lt;a href=&quot;https://theme-next.js.org/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;этим руководством&lt;/a&gt;&lt;/strong&gt; (и &lt;strong&gt;&lt;a href=&quot;https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;этим&lt;/a&gt;&lt;/strong&gt;), предварительно поменяв название при клонировании на &lt;em&gt;next-reloaded&lt;/em&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="News" scheme="https://dvesti.github.io/minimaal/categories/News/"/>
+    
+    
+      <category term="Themes" scheme="https://dvesti.github.io/minimaal/tags/Themes/"/>
+    
+      <category term="Blog" scheme="https://dvesti.github.io/minimaal/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -117,7 +141,7 @@
     <link href="https://dvesti.github.io/minimaal/2018/02/16/NexT-Mist-v6-0-4/"/>
     <id>https://dvesti.github.io/minimaal/2018/02/16/NexT-Mist-v6-0-4/</id>
     <published>2018-02-16T15:50:55.000Z</published>
-    <updated>2018-02-16T17:00:30.423Z</updated>
+    <updated>2020-06-14T10:28:43.155Z</updated>
     
     <content type="html"><![CDATA[<p>Обновили тему <strong>NexT</strong> до версии <strong>6.04</strong><a id="more"></a><br>Пользовался <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/INSTALLATION.md#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em></p>]]></content>
     
@@ -130,9 +154,9 @@
       <category term="News" scheme="https://dvesti.github.io/minimaal/categories/News/"/>
     
     
-      <category term="Blog" scheme="https://dvesti.github.io/minimaal/tags/Blog/"/>
-    
       <category term="Themes" scheme="https://dvesti.github.io/minimaal/tags/Themes/"/>
+    
+      <category term="Blog" scheme="https://dvesti.github.io/minimaal/tags/Blog/"/>
     
   </entry>
   
@@ -202,9 +226,9 @@
       <category term="News" scheme="https://dvesti.github.io/minimaal/categories/News/"/>
     
     
-      <category term="Blog" scheme="https://dvesti.github.io/minimaal/tags/Blog/"/>
-    
       <category term="Themes" scheme="https://dvesti.github.io/minimaal/tags/Themes/"/>
+    
+      <category term="Blog" scheme="https://dvesti.github.io/minimaal/tags/Blog/"/>
     
   </entry>
   
