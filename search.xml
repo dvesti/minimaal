@@ -13,19 +13,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Обновились до NexT 8.0.0</title>
-    <url>/minimaal/2020/06/14/NexT-8/</url>
-    <content><![CDATA[<p>И снова обновили тему <strong>NexT</strong> до версии <strong>NexT 8.0.0-rc.3</strong><br>Пользовался <strong><a href="https://theme-next.js.org/docs/" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em><a id="more"></a><br>Сейчас установлена тема: <strong>next-reloaded</strong> (она же – <strong>NexT</strong>)<br>Схема: <strong>Gemini</strong> (она мне показалась более брутальной и ядрёной)<br>Добавили в тему много интересных и красивых фишек, как по дизайну, так и в части плагинов.<br>Удивительный <strong>Поиск</strong>. Наконец-то, ищет и по русским словам (в <em><a href="https://dvesti.github.io/Pelican">Pelican</a></em> и <em><a href="https://dvesti.github.io/">Hugo</a></em>, например, не получилось найти и установить работающую модель)<br>Весьма продвинутое руководство (ссылку см. выше), по которому можно настроить сайт, как душе угодно. В том числе и сделать сайтом документации.<br>Короче, я – доволен, а это бывает редко…</p>]]></content>
+    <title>Обновились до NexT.Mist v6.0.4</title>
+    <url>/minimaal/2018/02/16/NexT-Mist-v6-0-4/</url>
+    <content><![CDATA[<p>Обновили тему <strong>NexT</strong> до версии <strong>6.04</strong><a id="more"></a><br>Пользовался <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/INSTALLATION.md#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em></p>]]></content>
       <categories>
         <category>Blog</category>
       </categories>
       <tags>
-        <tag>plugins</tag>
         <tag>NexT</tag>
         <tag>docs</tag>
-        <tag>Gemini</tag>
-        <tag>Hugo</tag>
-        <tag>Pelican</tag>
+        <tag>next-reloaded</tag>
       </tags>
   </entry>
   <entry>
@@ -43,6 +40,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Плагин hexo-html-minifier</title>
+    <url>/minimaal/2018/02/15/hexo-html-minifier/</url>
+    <content><![CDATA[<p>Добавил плагин <strong><a href="https://github.com/chenzhutian/hexo-all-minifier" target="_blank" rel="noopener">hexo-html-minifier</a>.</strong><br>Чтобы исходный код страницы был более компактным<a id="more"></a><br>Позже опишу подробнее</p>]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>plugins</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/minimaal/2018/02/14/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
@@ -54,15 +63,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Плагин hexo-html-minifier</title>
-    <url>/minimaal/2018/02/15/hexo-html-minifier/</url>
-    <content><![CDATA[<p>Добавил плагин <strong><a href="https://github.com/chenzhutian/hexo-all-minifier" target="_blank" rel="noopener">hexo-html-minifier</a>.</strong><br>Чтобы исходный код страницы был более компактным<a id="more"></a><br>Позже опишу подробнее</p>]]></content>
+    <title>Обновились до NexT 8.0.0</title>
+    <url>/minimaal/2020/06/14/NexT-8/</url>
+    <content><![CDATA[<p>И снова обновили тему <strong>NexT</strong> до версии <strong>NexT 8.0.0-rc.3</strong><br>Пользовался <strong><a href="https://theme-next.js.org/docs/" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em><a id="more"></a><br>Сейчас установлена тема: <strong>next-reloaded</strong> (она же – <strong>NexT</strong>)<br>Схема: <strong>Gemini</strong> (она мне показалась более брутальной и ядрёной)<br>Добавили в тему много интересных и красивых фишек, как по дизайну, так и в части плагинов.<br>Удивительный <strong>Поиск</strong>. Наконец-то, ищет и по русским словам (в <em><a href="https://dvesti.github.io/Pelican">Pelican</a></em> и <em><a href="https://dvesti.github.io/">Hugo</a></em>, например, не получилось найти и установить работающую модель)<br>Весьма продвинутое руководство (ссылку см. выше), по которому можно настроить сайт, как душе угодно. В том числе и сделать сайтом документации.<br>Короче, я – доволен, а это бывает редко…</p>]]></content>
       <categories>
         <category>Blog</category>
       </categories>
       <tags>
         <tag>plugins</tag>
-        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>docs</tag>
+        <tag>Gemini</tag>
+        <tag>Hugo</tag>
+        <tag>Pelican</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Остановились на теме - NexT.Mist</title>
+    <url>/minimaal/2018/02/14/NexT-Mist/</url>
+    <content><![CDATA[<p>Остановился на теме - <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener"><strong>NexT.Mist</strong></a><br><a id="more"></a><br>Нравятся и другие схемы этой темы, но на данном сайте будем придерживаться минимализма…</p>]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>NexT</tag>
+        <tag>Mist</tag>
       </tags>
   </entry>
   <entry>
@@ -88,6 +113,18 @@
         <tag>plugins</tag>
         <tag>hacks</tag>
         <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Label</title>
+    <url>/minimaal/2020/06/14/label/</url>
+    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight md"><figcaption><span>label.js</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% label [class]@Text %&#125;</span><br><span class="line"></span><br><span class="line">[class] : default | primary | success | info | warning | danger.</span><br><span class="line"><span class="code">          '@Text' can be specified with or without space</span></span><br><span class="line"><span class="code">          E.g. 'success @text' similar to 'success@text'.</span></span><br><span class="line"><span class="code">          If not specified, default class will be selected.</span></span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ &lt;mark&gt;esse&lt;/mark&gt; cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure><p>Lorem <span class="label default">ipsum</span> <span class="label primary">dolor sit</span> amet, consectetur <span class="label success">adipiscing elit,</span> sed <span class="label info">do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim <em><span class="label warning">ad</span></em> minim veniam, quis <strong><span class="label danger">nostrud</span></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate <del><span class="label default">velit</span></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>plugins</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -118,31 +155,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Обновились до NexT.Mist v6.0.4</title>
-    <url>/minimaal/2018/02/16/NexT-Mist-v6-0-4/</url>
-    <content><![CDATA[<p>Обновили тему <strong>NexT</strong> до версии <strong>6.04</strong><a id="more"></a><br>Пользовался <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md" target="_blank" rel="noopener">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/INSTALLATION.md#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B" target="_blank" rel="noopener">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em></p>]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>NexT</tag>
-        <tag>docs</tag>
-        <tag>next-reloaded</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Остановились на теме - NexT.Mist</title>
-    <url>/minimaal/2018/02/14/NexT-Mist/</url>
-    <content><![CDATA[<p>Остановился на теме - <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener"><strong>NexT.Mist</strong></a><br><a id="more"></a><br>Нравятся и другие схемы этой темы, но на данном сайте будем придерживаться минимализма…</p>]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>NexT</tag>
-        <tag>Mist</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Проверка временной зоны</title>
     <url>/minimaal/2018/02/14/time-test/</url>
     <content><![CDATA[<p>2018-02-14 14:39:20<br>Это тест временн<strong>о</strong>й зоны<a id="more"></a><br>А этот текст под катом</p>]]></content>
@@ -152,18 +164,6 @@
       <tags>
         <tag>NexT</tag>
         <tag>hacks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Label</title>
-    <url>/minimaal/2020/06/14/label/</url>
-    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight md"><figcaption><span>label.js</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% label [class]@Text %&#125;</span><br><span class="line"></span><br><span class="line">[class] : default | primary | success | info | warning | danger.</span><br><span class="line"><span class="code">          '@Text' can be specified with or without space</span></span><br><span class="line"><span class="code">          E.g. 'success @text' similar to 'success@text'.</span></span><br><span class="line"><span class="code">          If not specified, default class will be selected.</span></span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ <span class="xml"><span class="tag">&lt;<span class="name">mark</span>&gt;</span></span>esse<span class="xml"><span class="tag">&lt;/<span class="name">mark</span>&gt;</span></span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure><p>Lorem <span class="label default">ipsum</span> <span class="label primary">dolor sit</span> amet, consectetur <span class="label success">adipiscing elit,</span> sed <span class="label info">do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim <em><span class="label warning">ad</span></em> minim veniam, quis <strong><span class="label danger">nostrud</span></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate <del><span class="label default">velit</span></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>plugins</tag>
-        <tag>NexT</tag>
       </tags>
   </entry>
 </search>
