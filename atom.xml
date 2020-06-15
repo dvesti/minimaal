@@ -62,9 +62,9 @@
       <category term="Test" scheme="https://dvesti.github.io/minimaal/categories/Test/"/>
     
     
-      <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
-    
       <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
+    
+      <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
     
   </entry>
   
@@ -86,11 +86,11 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
+      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
+    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
     
       <category term="docs" scheme="https://dvesti.github.io/minimaal/tags/docs/"/>
-    
-      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
     
       <category term="Gemini" scheme="https://dvesti.github.io/minimaal/tags/Gemini/"/>
     
@@ -118,9 +118,9 @@
       <category term="Test" scheme="https://dvesti.github.io/minimaal/categories/Test/"/>
     
     
-      <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
-    
       <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
+    
+      <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
     
       <category term="tags" scheme="https://dvesti.github.io/minimaal/tags/tags/"/>
     
@@ -146,9 +146,9 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
-    
       <category term="comments" scheme="https://dvesti.github.io/minimaal/tags/comments/"/>
+    
+      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
     
   </entry>
   
@@ -170,9 +170,9 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
-    
       <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
+    
+      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
     
       <category term="RSS" scheme="https://dvesti.github.io/minimaal/tags/RSS/"/>
     
@@ -196,9 +196,9 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
-    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
+    
+      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
     
       <category term="css" scheme="https://dvesti.github.io/minimaal/tags/css/"/>
     
@@ -248,9 +248,9 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="comments" scheme="https://dvesti.github.io/minimaal/tags/comments/"/>
-    
       <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
+    
+      <category term="comments" scheme="https://dvesti.github.io/minimaal/tags/comments/"/>
     
   </entry>
   
@@ -320,9 +320,9 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
-    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
+    
+      <category term="hacks" scheme="https://dvesti.github.io/minimaal/tags/hacks/"/>
     
   </entry>
   
