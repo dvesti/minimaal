@@ -51,7 +51,7 @@
     <published>2020-06-14T09:39:20.000Z</published>
     <updated>2020-06-14T21:16:24.554Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight md"><figcaption><span>label.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% label [class]@Text %&#125;</span><br><span class="line"></span><br><span class="line">[class] : default | primary | success | info | warning | danger.</span><br><span class="line"><span class="code">          '@Text' can be specified with or without space</span></span><br><span class="line"><span class="code">          E.g. 'success @text' similar to 'success@text'.</span></span><br><span class="line"><span class="code">          If not specified, default class will be selected.</span></span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ &lt;mark&gt;esse&lt;/mark&gt; cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure><p>Lorem <span class="label default">ipsum</span> <span class="label primary">dolor sit</span> amet, consectetur <span class="label success">adipiscing elit,</span> sed <span class="label info">do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim <em><span class="label warning">ad</span></em> minim veniam, quis <strong><span class="label danger">nostrud</span></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate <del><span class="label default">velit</span></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight md"><figcaption><span>label.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% label [class]@Text %&#125;</span><br><span class="line"></span><br><span class="line">[class] : default | primary | success | info | warning | danger.</span><br><span class="line"><span class="code">          '@Text' can be specified with or without space</span></span><br><span class="line"><span class="code">          E.g. 'success @text' similar to 'success@text'.</span></span><br><span class="line"><span class="code">          If not specified, default class will be selected.</span></span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ <span class="xml"><span class="tag">&lt;<span class="name">mark</span>&gt;</span></span>esse<span class="xml"><span class="tag">&lt;/<span class="name">mark</span>&gt;</span></span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure><p>Lorem <span class="label default">ipsum</span> <span class="label primary">dolor sit</span> amet, consectetur <span class="label success">adipiscing elit,</span> sed <span class="label info">do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim <em><span class="label warning">ad</span></em> minim veniam, quis <strong><span class="label danger">nostrud</span></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate <del><span class="label default">velit</span></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
     
     <summary type="html">
     
@@ -62,9 +62,9 @@
       <category term="Test" scheme="https://dvesti.github.io/minimaal/categories/Test/"/>
     
     
-      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
-    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
+    
+      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
     
   </entry>
   
@@ -86,11 +86,11 @@
       <category term="Blog" scheme="https://dvesti.github.io/minimaal/categories/Blog/"/>
     
     
-      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
-    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
     
       <category term="docs" scheme="https://dvesti.github.io/minimaal/tags/docs/"/>
+    
+      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
     
       <category term="Gemini" scheme="https://dvesti.github.io/minimaal/tags/Gemini/"/>
     
@@ -118,9 +118,9 @@
       <category term="Test" scheme="https://dvesti.github.io/minimaal/categories/Test/"/>
     
     
-      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
-    
       <category term="NexT" scheme="https://dvesti.github.io/minimaal/tags/NexT/"/>
+    
+      <category term="plugins" scheme="https://dvesti.github.io/minimaal/tags/plugins/"/>
     
       <category term="tags" scheme="https://dvesti.github.io/minimaal/tags/tags/"/>
     
