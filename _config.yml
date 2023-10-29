@@ -12,8 +12,8 @@ timezone: Europe/Tallinn
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://minimaal.ru #https://dvesti.github.io/minimaal
-root: /
+url: https://dvesti.github.io/minimaal
+root: /minimaal/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
