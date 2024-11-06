@@ -2,10 +2,14 @@ source.utf8 <- function(f) {
   l <- readLines(f, encoding="UTF-8")
   eval(parse(text=l),envir=.GlobalEnv)
 }
+<<<<<<< Updated upstream
 options(
   blogdown.generator = 'hexo', blogdown.method = 'custom',
   blogdown.subdir = 'source/_posts', servr.daemon = TRUE
 )
+=======
+options(blogdown.hugo.version = "0.135.0")
+>>>>>>> Stashed changes
 
 # REMEMBER to restart R after you modify and save this file!
 
