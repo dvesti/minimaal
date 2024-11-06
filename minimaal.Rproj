@@ -1,12 +1,7 @@
 Version: 1.0
 
-<<<<<<< Updated upstream
 RestoreWorkspace: No
 SaveWorkspace: No
-=======
-RestoreWorkspace: Default
-SaveWorkspace: Default
->>>>>>> Stashed changes
 AlwaysSaveHistory: Default
 
 EnableCodeIndexing: Yes
@@ -18,9 +13,5 @@ RnwWeave: knitr
 LaTeX: pdfLaTeX
 
 BuildType: Website
-<<<<<<< Updated upstream
 WebsitePath: E:/Sites/Hexo/minimaal
 DisableExecuteRprofile: Yes
-=======
-WebsitePath: E:/Sites/Hexo
->>>>>>> Stashed changes
