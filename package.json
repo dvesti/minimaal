@@ -28,7 +28,7 @@
         "gulp-eslint": "^6.0.0",
         "gulp-shell": "^0.6.3",
         "js-yaml": "^3.13.1",
-        "stylint": "^0.6.3"
+        "stylint": "^2.0.0"
     },
     "engines": {
         "node": ">=10.9.0"

@@ -1,4 +1,4 @@
-# Hexo Concdiguration
+﻿# Hexo Concdiguration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -12,8 +12,8 @@ timezone: Europe/Tallinn
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://dvesti.github.io
-root: /minimaal/
+url: https://minimaal.ru #https://dvesti.github.io/minimaal/
+root: #/minimaal/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape #next
+theme: next #landscape #next
 
 all_minifier: true
 
@@ -94,8 +94,8 @@ all_minifier: true
 
 # Hexo Concdiguration
 
-deploy:
-  type: 
+#deploy:
+#  type: 
 
 #deploy:
 #  type: git
@@ -109,3 +109,9 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+deploy:
+  type: git
+  repo: https://github.com/dvesti/minimaal
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
