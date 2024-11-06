@@ -1,4 +1,4 @@
-﻿# Hexo Concdiguration
+# Hexo Concdiguration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -61,7 +61,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: DD.MM.YYYY г.
+date_format: YYYY-MM-DD #DD.MM.YYYY г.
 time_format: HH:mm
 
 # Pagination
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next #landscape #next
 
-all_minifier: true
+#all_minifier: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -104,14 +104,18 @@ all_minifier: true
 #  message: " {{ now ('YYYY-MM-DD HH:mm:ss:') }} "
 #  aws_key: AKIAJ3LFUVWO56RMKZSA  // Optional, if the environment variable `AWS_KEY` is set
 #  aws_secret: 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  // Optional, if the environment variable `AWS_SECRET` is set
-node_sass:
-  debug: false
-  outputStyle: nested
-  precision: 5
-  sourceComments: false
+#node_sass:
+#  debug: false
+#  outputStyle: nested
+#  precision: 5
+#  sourceComments: false
 
 deploy:
   type: git
   repo: https://github.com/dvesti/minimaal
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+  
+plugins:
+- hexo-server
+- hexo-deployer-git  
