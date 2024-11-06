@@ -1,53 +1,26 @@
 {
-    "name": "hexo-theme-next",
-    "version": "7.8.0",
-    "description": "Elegant and powerful theme for Hexo.",
-    "main": "gulpfile.js",
-    "scripts": {
-        "test": "gulp"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/theme-next/hexo-theme-next.git"
-    },
-    "keywords": [
-        "hexo",
-        "theme",
-        "next"
-    ],
-    "author": "NexT <support@theme-next.org> (https://theme-next.org)",
-    "license": "AGPL-3.0-or-later",
-    "bugs": {
-        "url": "https://github.com/theme-next/hexo-theme-next/issues"
-    },
-    "homepage": "https://theme-next.org",
-    "devDependencies": {
-        "eslint": "^6.8.0",
-        "eslint-config-theme-next": "^1.1.4",
-        "gulp": "^5.0.0",
-        "gulp-eslint": "^6.0.0",
-        "gulp-shell": "^0.6.3",
-        "js-yaml": "^3.13.1",
-        "stylint": "^2.0.0"
-    },
-    "engines": {
-        "node": ">=10.9.0"
-    },
-    "dependencies": {
-        "hexo": "^7.3.0",
-        "hexo-deployer-git": "^4.0.0",
-        "hexo-deployer-heroku": "^1.0.0",
-        "hexo-deployer-openshift": "^0.1.2",
-        "hexo-deployer-rsync": "^3.0.0",
-        "hexo-generator-archive": "^2.0.0",
-        "hexo-generator-category": "^2.0.0",
-        "hexo-generator-feed": "^1.2.2",
-        "hexo-generator-index": "^4.0.0",
-        "hexo-generator-sitemap": "^1.2.0",
-        "hexo-generator-tag": "^2.0.0",
-        "hexo-renderer-marked": "^0.2.11",
-        "hexo-renderer-stylus": "^0.2.3",
-        "hexo-server": "^3.0.0",
-        "hexo-theme-next": "^8.18.2"
-    }
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^1.0.0"
+  }
 }
