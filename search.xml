@@ -31,6 +31,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Убираем комментарии со страниц категорий и тэгов</title>
+    <url>/2018/02/17/comments-false/</url>
+    <content><![CDATA[<p>Чтобы убрать отображение блока комментариев на страницах, таких, как <em>Категории</em>, <em>Тэги</em>, <em>О нас</em>, делаем следующее: <span id="more"></span><br>Добавляем в заголовок сгенерированной страницы опцию  - <code>comments: false</code><br>Например, страница тэгов будет выглядить так: (с нашего сайта)</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: Все тэги</span><br><span class="line"><span class="attr">date</span>: <span class="number">2018</span>-<span class="number">02</span>-<span class="number">14</span> <span class="number">19</span>:<span class="number">08</span>:<span class="number">19</span></span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;tags&quot;</span></span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Plugin</tag>
+        <tag>Hexo</tag>
+        <tag>Hack</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Остановились на теме - NexT.Mist</title>
     <url>/2018/02/14/NexT-Mist/</url>
     <content><![CDATA[<p>Остановился на теме - <a href="https://github.com/theme-next/hexo-theme-next"><strong>NexT.Mist</strong></a></p>
@@ -64,20 +78,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Убираем комментарии со страниц категорий и тэгов</title>
-    <url>/2018/02/17/comments-false/</url>
-    <content><![CDATA[<p>Чтобы убрать отображение блока комментариев на страницах, таких, как <em>Категории</em>, <em>Тэги</em>, <em>О нас</em>, делаем следующее: <span id="more"></span><br>Добавляем в заголовок сгенерированной страницы опцию  - <code>comments: false</code><br>Например, страница тэгов будет выглядить так: (с нашего сайта)</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: Все тэги</span><br><span class="line"><span class="attr">date</span>: <span class="number">2018</span>-<span class="number">02</span>-<span class="number">14</span> <span class="number">19</span>:<span class="number">08</span>:<span class="number">19</span></span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;tags&quot;</span></span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>News</category>
-      </categories>
-      <tags>
-        <tag>Plugin</tag>
-        <tag>Hexo</tag>
-        <tag>Hack</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Добавлен generator feed</title>
     <url>/2018/02/17/hexo-generator-feed/</url>
     <content><![CDATA[<p>Добавил на сайт плагин <strong>RSS&#x2F;Feed</strong> - hexo-generator-feed  <span id="more"></span><br>Пользовался <a href="https://github.com/hexojs/hexo-generator-feed">этой инструкцией</a>.<br>Добавил в конфиг темы (после <em>rss</em>)</p>
@@ -106,6 +106,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Проверка временной зоны</title>
+    <url>/2018/02/14/time-test/</url>
+    <content><![CDATA[<p>2018-02-14 14:39:20</p>
+<p>Это тест временн<strong>о</strong>й зоны <span id="more"></span><br>А этот текст под катом</p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Удерживаем Sidebar в окне</title>
     <url>/2018/02/17/keep-sidebar-toggle/</url>
     <content><![CDATA[<h4 id="Восстановим-переключатель-боковой-панели"><a href="#Восстановим-переключатель-боковой-панели" class="headerlink" title="Восстановим переключатель боковой панели"></a>Восстановим переключатель боковой панели</h4><h5 id="Шаг-01"><a href="#Шаг-01" class="headerlink" title="Шаг 01"></a>Шаг 01</h5><p>Открываем в текстовом редакторе файл <code>/themes/next/source/css/_common/components/sidebar/sidebar.styl</code> и комментируем строчки <code>tablet</code> и <code>mobile</code></p>
@@ -131,19 +144,6 @@
       <tags>
         <tag>css</tag>
         <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Проверка временной зоны</title>
-    <url>/2018/02/14/time-test/</url>
-    <content><![CDATA[<p>2018-02-14 14:39:20</p>
-<p>Это тест временн<strong>о</strong>й зоны <span id="more"></span><br>А этот текст под катом</p>
-]]></content>
-      <categories>
-        <category>News</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
       </tags>
   </entry>
 </search>
