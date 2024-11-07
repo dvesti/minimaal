@@ -721,6 +721,11 @@ hexo-theme-landscape@^1.0.0:
   resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
   integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
+hexo-theme-next@^8.21.0:
+  version "8.21.0"
+  resolved "https://registry.npmjs.org/hexo-theme-next/-/hexo-theme-next-8.21.0.tgz"
+  integrity sha512-O0xKsX73QJSOfPs8R+Kd1sFbJQhy0Od3NsoN5uR717IXjK4xn2w9x+GlSijEfh96JkhCIQOOPS5xBtzsfpjE6A==
+
 hexo-util@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.7.0.tgz"
