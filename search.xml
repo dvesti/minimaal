@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Система комментирования  Hypercomments</title>
+    <url>/2018/02/16/Hypercomments/</url>
+    <content><![CDATA[<p>Добавил на сайт систему комментирования - <strong>Hypercomments</strong><br>Совсем и не сложно.<br>Пользовался следующими инструкциями: <span id="more"></span></p>
+<ul>
+<li>с сайта - <strong><a href="https://almostover.ru/2016-10/add-hypercomments-to-hexo-theme-next/">Almost Over</a></strong></li>
+<li>с <strong><a href="https://github.com/iissnan/hexo-theme-next">GitHub</a></strong></li>
+</ul>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Plugin</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Обновились до NexT.Mist v6.0.4</title>
+    <url>/2018/02/16/NexT-Mist-v6-0-4/</url>
+    <content><![CDATA[<p>Обновили тему <strong>NexT</strong> до версии <strong>6.04</strong>  <span id="more"></span><br>Пользовался <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/UPDATE-FROM-5.1.X.md">этим руководством</a></strong> (и <strong><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/ru/INSTALLATION.md#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B">этим</a></strong>), предварительно поменяв название при клонировании на <em>next-reloaded</em></p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Themes</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Убираем комментарии со страниц категорий и тэгов</title>
+    <url>/2018/02/17/comments-false/</url>
+    <content><![CDATA[<p>Чтобы убрать отображение блока комментариев на страницах, таких, как <em>Категории</em>, <em>Тэги</em>, <em>О нас</em>, делаем следующее: <span id="more"></span><br>Добавляем в заголовок сгенерированной страницы опцию  - <code>comments: false</code><br>Например, страница тэгов будет выглядить так: (с нашего сайта)</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: Все тэги</span><br><span class="line"><span class="attr">date</span>: <span class="number">2018</span>-<span class="number">02</span>-<span class="number">14</span> <span class="number">19</span>:<span class="number">08</span>:<span class="number">19</span></span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;tags&quot;</span></span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Plugin</tag>
+        <tag>Hexo</tag>
+        <tag>Hack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/11/06/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Остановились на теме - NexT.Mist</title>
+    <url>/2018/02/14/NexT-Mist/</url>
+    <content><![CDATA[<p>Остановился на теме - <a href="https://github.com/theme-next/hexo-theme-next"><strong>NexT.Mist</strong></a></p>
+<span id="more"></span>
+<p>Нравятся и другие схемы этой темы, но на данном сайте будем придерживаться минимализма…</p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Themes</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Добавлен generator feed</title>
+    <url>/2018/02/17/hexo-generator-feed/</url>
+    <content><![CDATA[<p>Добавил на сайт плагин <strong>RSS&#x2F;Feed</strong> - hexo-generator-feed  <span id="more"></span><br>Пользовался <a href="https://github.com/hexojs/hexo-generator-feed">этой инструкцией</a>.<br>Добавил в конфиг темы (после <em>rss</em>)</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed</span>:</span><br><span class="line">  <span class="attr">type</span>: atom</span><br><span class="line">  <span class="attr">path</span>: atom.<span class="property">xml</span></span><br><span class="line">  <span class="attr">limit</span>: <span class="number">20</span></span><br><span class="line">  <span class="attr">hub</span>:</span><br><span class="line">  <span class="attr">content</span>:</span><br><span class="line">  <span class="attr">content_limit</span>: <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim</span>: <span class="string">&#x27; &#x27;</span></span><br></pre></td></tr></table></figure>
+<p>Теперь в боковой панели открывается красивая ссылка на <strong>RSS</strong> </p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Plugins</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Удерживаем Sidebar в окне</title>
+    <url>/2018/02/17/keep-sidebar-toggle/</url>
+    <content><![CDATA[<h4 id="Восстановим-переключатель-боковой-панели"><a href="#Восстановим-переключатель-боковой-панели" class="headerlink" title="Восстановим переключатель боковой панели"></a>Восстановим переключатель боковой панели</h4><h5 id="Шаг-01"><a href="#Шаг-01" class="headerlink" title="Шаг 01"></a>Шаг 01</h5><p>Открываем в текстовом редакторе файл <code>/themes/next/source/css/_common/components/sidebar/sidebar.styl</code> и комментируем строчки <code>tablet</code> и <code>mobile</code></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">+<span class="title function_">tablet</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="attr">display</span>: none !important;</span><br><span class="line">&#125;</span><br><span class="line">+<span class="title function_">mobile</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="attr">display</span>: none !important;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h5 id="Шаг-02"><a href="#Шаг-02" class="headerlink" title="Шаг 02"></a>Шаг 02</h5><p>Открываем с помощью текстового редактора файл <code>/themes/next/source/css/_common/components/sidebar/sidebar-toggle.styl</code> и также комментируем строчки <code>tablet</code> и <code>mobile</code><br>Вместо них добавляем эти строчки:</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">+tablet() &#123;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">45px</span>;  //Указываем точное место расположения</span><br><span class="line">  -moz-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  -khtml-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.8</span>;  //Увеличиваем эффект прозрачности</span><br><span class="line">  <span class="comment">/*display: none;*/</span></span><br><span class="line">&#125;</span><br><span class="line">+mobile() &#123;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">45px</span>;  //Указываем точное место расположения</span><br><span class="line">  -moz-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  -khtml-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.8</span>;  //Увеличиваем эффект прозрачности</span><br><span class="line">  <span class="comment">/*display: none;*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Открываем в текстовом редакторе этот файл - <code>/themes/next/source/css/_common/components/back-to-top.styl</code> и также комментирием и меняем, как в предыдущем описании</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">+mobile() &#123;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">20px</span>;</span><br><span class="line">  -moz-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  -khtml-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="comment">/*display: none;*/</span></span><br><span class="line">&#125;</span><br><span class="line">+tablet() &#123;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">20px</span>;</span><br><span class="line">  -moz-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  -khtml-<span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.8</span>;  </span><br><span class="line">  <span class="comment">/*display: none;*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Изменяем-боковую-панель"><a href="#Изменяем-боковую-панель" class="headerlink" title="Изменяем боковую панель"></a>Изменяем боковую панель</h4><p>Открываем <code>layout/_macro/sidebar.swig</code> и ищем <code>sidebar-dimmer</code><br>Должен выглядеть так:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;sidebar&quot;</span> <span class="attr">class</span>=<span class="string">&quot;sidebar&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;sidebar-dimmer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-inner&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Прописываем стили для <code>sidebar-dimmer</code>в файле <code>source/css/_common/components/sidebar/sidebar-toggle.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.sidebar-active</span> <span class="selector-id">#sidebar-dimmer</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: .<span class="number">7</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">150%</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">150%</span>);</span><br><span class="line">  <span class="attribute">transition</span>: opacity .<span class="number">2s</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#sidebar-dimmer</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: opacity .<span class="number">2s</span>,transform <span class="number">0s</span> .<span class="number">2s</span>;</span><br><span class="line">  +mobile() &#123;</span><br><span class="line">    <span class="attribute">display</span>: block;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>И добавляем в файле <code>source/js/src/motion.js</code> следующее:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> sidebarToggleMotion = &#123;</span><br><span class="line">  <span class="attr">toggleEl</span>: $(<span class="string">&#x27;.sidebar-toggle&#x27;</span>),</span><br><span class="line">  <span class="attr">dimmerEl</span>: $(<span class="string">&#x27;#sidebar-dimmer&#x27;</span>),  <span class="comment">//init</span></span><br><span class="line">  <span class="attr">sidebarEl</span>: $(<span class="string">&#x27;.sidebar&#x27;</span>),</span><br><span class="line">  <span class="attr">isSidebarVisible</span>: <span class="literal">false</span>,</span><br><span class="line">  <span class="attr">init</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">toggleEl</span>.<span class="title function_">on</span>(<span class="string">&#x27;click&#x27;</span>, <span class="variable language_">this</span>.<span class="property">clickHandler</span>.<span class="title function_">bind</span>(<span class="variable language_">this</span>));</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">dimmerEl</span>.<span class="title function_">on</span>(<span class="string">&#x27;click&#x27;</span>, <span class="variable language_">this</span>.<span class="property">clickHandler</span>.<span class="title function_">bind</span>(<span class="variable language_">this</span>));   <span class="comment">//binding</span></span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">toggleEl</span>.<span class="title function_">on</span>(<span class="string">&#x27;mouseenter&#x27;</span>, <span class="variable language_">this</span>.<span class="property">mouseEnterHandler</span>.<span class="title function_">bind</span>(<span class="variable language_">this</span>));</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">toggleEl</span>.<span class="title function_">on</span>(<span class="string">&#x27;mouseleave&#x27;</span>, <span class="variable language_">this</span>.<span class="property">mouseLeaveHandler</span>.<span class="title function_">bind</span>(<span class="variable language_">this</span>));</span><br></pre></td></tr></table></figure>
+<p>В последней версии - это уже указано.</p>
+<p><a href="https://blog.zzbd.org/2017/06/10/keep-sidebar/">Источник</a></p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Плагин hexo-html-minifier</title>
+    <url>/2018/02/15/hexo-html-minifier/</url>
+    <content><![CDATA[<p>Добавил плагин <strong><a href="https://github.com/chenzhutian/hexo-all-minifier">hexo-html-minifier</a>.</strong><br>Чтобы исходный код страницы был более компактным<span id="more"></span><br>Позже опишу подробнее</p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Plugins</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Проверка временной зоны</title>
+    <url>/2018/02/14/time-test/</url>
+    <content><![CDATA[<p>2018-02-14 14:39:20<br>Это тест временн<strong>о</strong>й зоны <span id="more"></span><br>А этот текст под катом</p>
+]]></content>
+      <categories>
+        <category>News</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+</search>
